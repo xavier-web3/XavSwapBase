@@ -8,6 +8,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethclient"
 	"github.com/pkg/errors"
+	logTypes "github.com/xavier-web3/XavSwapBase/chain/types"
 )
 
 type Service struct {

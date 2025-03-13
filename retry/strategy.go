@@ -43,7 +43,7 @@ func Wait(durations ...time.Duration) Strategy {
 			if len(durations) <= durationIndex {
 				durationIndex = len(durations) - 1
 			}
-			time.Sleep(unstable.ArroundDuration(durations[durationIndex]))
+			time.Sleep(unstable.AroundDuration(durations[durationIndex]))
 		}
 		return true
 	}

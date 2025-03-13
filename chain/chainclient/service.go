@@ -9,12 +9,12 @@ import (
 	"github.com/xavier-web3/XavSwapBase/chain"
 	"github.com/xavier-web3/XavSwapBase/chain/chainclient/evmclient"
 
-	logTypes "github.com/ProjectsTask/EasySwapBase/chain/types"
+	logTypes "github.com/xavier-web3/XavSwapBase/chain/types"
 )
 
 type ChainClient interface {
 	FilterLogs(ctx context.Context, q logTypes.FilterQuery) ([]interface{}, error)
-	BlockTimeNumber(context.Context, *big.Int) (uint64, error)
+	BlockTimeByNumber(context.Context, *big.Int) (uint64, error)
 	Client() interface{}
 	CallContract(ctx context.Context, msg ethereum.CallMsg, blockNumber *big.Int) ([]byte, error)
 	CallContractByChain(ctx context.Context, param logTypes.CallParam) (interface{}, error)

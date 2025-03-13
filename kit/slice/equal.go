@@ -3,7 +3,7 @@ package slice
 import (
 	"reflect"
 
-	mathUtil "github.com/ProjectsTask/EasySwapBase/kit/math"
+	mathUtil "github.com/xavier-web3/XavSwapBase/kit/math"
 )
 
 // Equal reports whether arr1 equals arr2.

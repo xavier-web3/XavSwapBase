@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ProjectsTask/EasySwapBase/kit/convert"
+	"github.com/xavier-web3/XavSwapBase/kit/convert"
 )
 
 const (

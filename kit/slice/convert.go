@@ -3,7 +3,7 @@ package slice
 import (
 	"strconv"
 
-	"github.com/ProjectsTask/EasySwapBase/kit/convert"
+	"github.com/xavier-web3/XavSwapBase/kit/convert"
 )
 
 // StringsToInts returns converted int slice by string slice.

@@ -16,11 +16,11 @@ import (
 	"github.com/pkg/errors"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/ProjectsTask/EasySwapBase/kit/convert"
-	"github.com/ProjectsTask/EasySwapBase/kit/validator"
-	"github.com/ProjectsTask/EasySwapBase/logger/xzap"
+	"github.com/xavier-web3/XavSwapBase/kit/convert"
+	"github.com/xavier-web3/XavSwapBase/kit/validator"
+	"github.com/xavier-web3/XavSwapBase/logger/xzap"
 
-	"github.com/ProjectsTask/EasySwapBase/errcode"
+	"github.com/xavier-web3/XavSwapBase/errcode"
 )
 
 const (

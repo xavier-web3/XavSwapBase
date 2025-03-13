@@ -3,8 +3,8 @@ package chain
 import (
 	"strings"
 
-	"github.com/ProjectsTask/EasySwapBase/evm/eip"
 	"github.com/pkg/errors"
+	"github.com/xavier-web3/XavSwapBase/evm/eip"
 )
 
 const (

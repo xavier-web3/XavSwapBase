@@ -1,7 +1,7 @@
 package gdb
 
 import (
-	"github.com/ProjectsTask/EasySwapBase/stores/gdb/orderbookmodel/multi"
+	"github.com/xavier-web3/XavSwapBase/stores/gdb/orderbookmodel/multi"
 )
 
 func GetMultiProjectOrderTableName(project string, chain string) string {

@@ -10,7 +10,7 @@ import (
 	"gorm.io/gorm/logger"
 	"gorm.io/gorm/schema"
 
-	timeUtil "github.com/ProjectsTask/EasySwapBase/kit/time"
+	timeUtil "github.com/xavier-web3/XavSwapBase/kit/time"
 )
 
 const (
